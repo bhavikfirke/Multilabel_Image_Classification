@@ -16,8 +16,10 @@ The [image dataset](https://www.lamda.nju.edu.cn/data_MIMLimage.ashx) consists o
 ![model](https://github.com/bhavikfirke/Multilabel_Image_Classification/blob/main/model.png?raw=true)
 
 ## Outcome
-- Obtained 0.12 Hamming loss on test set
-- Obtained 59% exact match on test set
+On test dataset: 
+- Obtained 0.12 Hamming loss 
+- Obtained 59% exact match
+- Obtained 0.73 micro-averaged f1 score
 
 ### Predictions on test set
 ![sample_test_image](https://github.com/bhavikfirke/Multilabel_Image_Classification/blob/main/test_image.jpg?raw=true)
