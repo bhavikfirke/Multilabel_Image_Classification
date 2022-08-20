@@ -8,7 +8,7 @@ The [image dataset](https://www.lamda.nju.edu.cn/data_MIMLimage.ashx) consists o
 ### Preprocessing
 - Due to small dataset, image augmentation was used to artifically increase training data
 ### Training
-- Used a sequential CNN architecture along with dropout and batch normalizatin layers to avoid overfitting
+- Used a sequential CNN architecture along with dropout and batch normalization layers to avoid overfitting
 - As this was multi label classification, binary crossentropy and sigmoid was used as loss function and activation function respectively
 - To select threshold value, performance of various threshold values was evaluated using Matthews Correlation Coefficient
 
